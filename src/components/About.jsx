@@ -15,7 +15,7 @@ const About = () => {
     <div className="max-w-5xl mx-auto font-openSans mb-20 px-12">
       <SectionTitle number={1} title="About Me" />
       <div className="lg:grid lg:grid-cols-3 gap-12 items-center w-full">
-        <div className="left-content text-base font-openSans lg:col-span-2 text-secondarySlate font-semibold mt-10 w-full">
+        <div className="left-content text-base font-openSans lg:col-span-2 text-secondarySlate font-semibold py-10 w-full">
           <p className="text-base">
             Hello! My name is Mahadi and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
@@ -54,8 +54,8 @@ const About = () => {
             ))}
           </ul>
         </div>
-        <div className="right-image relative z-10 flex justify-center items-center">
-          <div className="relative w-full">
+        <div className="right-image relative z-10 flex justify-center items-center mt-10 lg:mt-2">
+          <div className="relative max-w-full">
             <img
               className="rounded-lg z-10 relative hover:-translate-x-1.5 hover:-translate-y-1.5 transition-all duration-200 max-w-xs w-full"
               src="/01641819262.JPG"

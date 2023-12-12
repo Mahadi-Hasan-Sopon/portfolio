@@ -24,7 +24,7 @@ const Experience = () => {
             </span>
           </h3>
           <div className="mb-2 font-openSans flex gap-2">
-            <FaCaretRight className="text-primaryGreen text-xs mt-2" />
+            <FaCaretRight className="text-primaryGreen text-xs mt-2 min-w-fit" />
             <p className="text-secondarySlate">
               <span className="font-bold mr-1">Technical Support: </span>
               <span className="font-medium font-openSans">
@@ -36,7 +36,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="mb-2 font-openSans flex gap-2">
-            <FaCaretRight className="text-primaryGreen text-xs mt-2" />
+            <FaCaretRight className="text-primaryGreen text-xs mt-2 min-w-fit" />
             <p className="text-secondarySlate">
               <span className="font-bold mr-1">Client Interaction: </span>
               <span className="font-medium font-openSans">
@@ -48,7 +48,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="mb-2 font-openSans flex gap-2">
-            <FaCaretRight className="text-primaryGreen text-xs mt-2" />
+            <FaCaretRight className="text-primaryGreen text-xs mt-2 min-w-fit" />
             <p className="text-secondarySlate">
               <span className="font-bold mr-1">Team Collaboration: </span>
               <span className="font-medium font-openSans">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   return (
     <div className="max-w-5xl mx-auto px-12 py-10">
@@ -14,9 +16,12 @@ const Contact = () => {
           suggestions or want to discus something event want to say hi,{" "}
           {"don't"} hesitate.
         </p>
-        <button className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans my-7">
+        <Link
+          to={"mailto:d.eng.mahadi.hasan@gmail.com"}
+          className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans my-7 "
+        >
           Say Hello
-        </button>
+        </Link>
       </div>
       <div className="contact-form font-interFont px-2 py-4 ">
         <form className="max-w-md mx-auto space-y-8">
