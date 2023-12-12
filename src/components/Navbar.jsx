@@ -96,7 +96,6 @@ const Navbar = () => {
               to="Mahadi_CV.pdf"
               target="_blank"
               className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans"
-              download={true}
             >
               Resume
             </Link>

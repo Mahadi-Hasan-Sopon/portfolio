@@ -23,6 +23,7 @@ const Hero = () => {
           to="Mahadi_CV.pdf"
           target="_blank"
           className="px-8 py-3 font-interFont text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm"
+          download={true}
         >
           Download Resume
         </Link>
