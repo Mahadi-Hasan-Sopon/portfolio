@@ -32,4 +32,5 @@
 .imageDiv:hover {
   mix-blend-mode: normal;
   cursor: pointer;
+  filter: none;
 }

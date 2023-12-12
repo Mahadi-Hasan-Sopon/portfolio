@@ -1,6 +1,8 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import ContainerDiv from "./components/ContainerDiv";
 import Experience from "./components/Experience";
+
 import GmailRight from "./components/GmailRight";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -16,6 +18,7 @@ const App = () => {
         <About />
         <Experience />
         <Projects />
+        <Contact />
         <SocialLinks />
         <GmailRight />
       </ContainerDiv>
