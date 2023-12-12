@@ -11,9 +11,9 @@ const Projects = () => {
     <div className="max-w-5xl mx-auto font-openSans my-20 px-12 relative w-full">
       <SectionTitle number={3} title="Some Things I've Built" />
       <div className="project-1 grid md:grid-cols-12 py-10 relative">
-        <div className="image md:col-start-1 md:col-end-7 w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
+        <div className="image md:col-start-1 md:col-end-7 sm:w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
           <div className="w-full h-full imageOverlay">
-            <div className="imageDiv">
+            <div className="imageDiv w-full">
               <Link
                 to={"https://inventory-management-design.web.app"}
                 target="_blank"
@@ -42,7 +42,7 @@ const Projects = () => {
               dashboard, providing real-time insights.
             </p>
           </div>
-          <div className="flex gap-3 items-center md:justify-end text-sm font-mono list-none text-secondarySlate md:text-right w-full my-5">
+          <div className="flex flex-wrap gap-3 items-center md:justify-end text-sm font-mono list-none text-secondarySlate md:text-right w-full my-5">
             <li>React</li>
             <li>Tailwind</li>
             <li>Firebase</li>
@@ -95,7 +95,7 @@ const Projects = () => {
               Where user can read and borrow books online.
             </p>
           </div>
-          <div className="flex gap-4 items-center text-sm font-mono list-none text-secondarySlate w-full my-5">
+          <div className="flex gap-4 items-center text-sm font-mono list-none flex-wrap text-secondarySlate w-full my-5">
             <li>React</li>
             <li>Tailwind</li>
             <li>Firebase</li>
@@ -129,7 +129,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-        <div className="image md:col-start-6 md:col-end-12 w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
+        <div className="image md:col-start-6 md:col-end-12 sm:w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
           <div className="w-full h-full imageOverlay">
             <div className="imageDiv">
               <Link to={"https://encyclopaedia-97061.web.app"} target="_blank">
@@ -144,7 +144,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-3 grid md:grid-cols-12 py-10 relative">
-        <div className="image md:col-start-1 md:col-end-7 w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
+        <div className="image md:col-start-1 md:col-end-7 sm:w-9/12 md:w-full h-[500px] relative bg-primaryGreen">
           <div className="w-full h-full imageOverlay">
             <div className="imageDiv">
               <Link to={"https://authentic-shop.surge.sh/"} target="_blank">
@@ -172,7 +172,7 @@ const Projects = () => {
               handling authentication.
             </p>
           </div>
-          <div className="flex gap-3 items-center md:justify-end text-sm font-mono list-none text-secondarySlate md:text-right w-full my-5">
+          <div className="flex gap-3 items-center md:justify-end text-sm font-mono list-none flex-wrap text-secondarySlate md:text-right w-full my-5">
             <li>React</li>
             <li>Tailwind</li>
             <li>Firebase</li>
