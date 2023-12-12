@@ -1,0 +1,35 @@
+.imageOverlay {
+  background: #64ffda;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.imageOverlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+  z-index: 3;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #0a192f;
+  mix-blend-mode: screen;
+}
+
+.imageOverlay:hover::before {
+  background: none;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+.imageDiv {
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(1) brightness(90%);
+}
+
+.imageDiv:hover {
+  mix-blend-mode: normal;
+  cursor: pointer;
+}

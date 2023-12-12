@@ -9,6 +9,7 @@ export default {
         primaryGreen: "#64ffda",
         secondarySlate: "#8892b0",
         lightNavyCard: "#112240",
+        imageOverlay: "#0a192f",
       },
       fontFamily: {
         openSans: "'Open Sans', sans-serif",

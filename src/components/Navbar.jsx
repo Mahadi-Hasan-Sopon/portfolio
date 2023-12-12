@@ -27,7 +27,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center gap-6 py-3 max-h-20 fixed top-0 w-[calc(100%-35px)] max-w-7xl bg-bgNavy shadow-lg">
+    <div className="navbar flex justify-between items-center gap-6 py-3 max-h-20 fixed top-0 w-[calc(100%-35px)] max-w-7xl bg-bgNavy shadow-lg z-50 mx-auto">
       <div className="logo w-10">
         <Link to="/">
           <div className="w-12">
@@ -71,8 +71,8 @@ const Navbar = () => {
           />
         )}
         <div
-          className={`navItems flex md:hidden flex-col gap-8 absolute top-10 right-0 min-h-screen w-full bg-bgNavy ps-10 transition-all duration-500 ${
-            isOpen ? "right-0" : "-right-full"
+          className={`navItems flex md:hidden flex-col gap-8 absolute top-10 min-h-screen w-full bg-bgNavy ps-10 transition-all duration-500 ${
+            isOpen ? "-right-5" : "-right-full"
           }`}
         >
           {navLinks &&

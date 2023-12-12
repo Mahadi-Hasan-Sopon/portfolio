@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const ContainerDiv = ({ children }) => {
   return (
-    <div className="max-w-7xl mx-auto p-4 lg:p-0 relative w-full overflow-hidden">
+    <div className="max-w-7xl mx-auto p-4 xl:p-0 relative w-full overflow-hidden">
       {children}
     </div>
   );
