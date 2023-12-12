@@ -33,7 +33,7 @@ const socialLinks = [
 
 const SocialLinks = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 fixed bottom-0">
+    <div className="flex flex-col items-center justify-center gap-4 fixed bottom-0 z-30 bg-bgNavy pr-1 pt-2">
       {socialLinks.map(({ Icon, name, url }) => (
         <Link key={name} to={url} target="_blank">
           <div className="w-6 h-6">

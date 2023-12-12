@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
-    <div className="py-20 max-w-4xl mx-auto ps-12">
+    <div className="py-20 max-w-4xl mx-auto px-12">
       <SectionTitle number={2} title="Where I've Worked" />
 
       <div className="md:flex mt-10">

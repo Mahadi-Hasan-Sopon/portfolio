@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="max-w-5xl mx-auto ps-12 py-10">
+    <div className="max-w-5xl mx-auto px-12 py-10">
       <div className="header flex flex-col items-center justify-center">
         <p className="text-primaryGreen text-base font-mono mb-3">
           04. {"What's"} Next?

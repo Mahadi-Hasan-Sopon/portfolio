@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center gap-6 sm:gap-8 max-w-5xl mx-auto min-h-screen ps-12 pb-20 pr-4">
+    <div className="flex flex-col justify-center gap-6 sm:gap-8 max-w-5xl mx-auto min-h-screen px-12 pb-20 ">
       <h2 className="text-lg font-notoSerif text-primaryGreen font-normal ms-2">
         Hi, my name is
       </h2>
