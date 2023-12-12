@@ -58,7 +58,7 @@ const About = () => {
           <div className="relative">
             <img
               className="rounded-lg z-10 relative hover:-translate-x-1.5 hover:-translate-y-1.5 transition-all duration-200 max-w-xs"
-              src="../../public/01641819262.JPG"
+              src="/01641819262.JPG"
               alt="Mahadi Hasan's Image"
             />
             <div className="after:content-[''] after:border-[2px] after:border-primaryGreen after:w-full after:h-full after:absolute after:top-4 after:left-4 -z-10 after:rounded"></div>
