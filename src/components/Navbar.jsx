@@ -92,14 +92,14 @@ const Navbar = () => {
               </a>
             ))}
           <li className="list-none flex">
-            <a
+            <Link
               to="/src/assets/Mahadi_Hasan_Resume.pdf"
               download={true}
               target="_blank"
               className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans cursor-pointer"
             >
               Resume
-            </a>
+            </Link>
           </li>
         </div>
       </div>
