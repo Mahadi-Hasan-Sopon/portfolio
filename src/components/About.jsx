@@ -12,7 +12,7 @@ const skills = [
 
 const About = () => {
   return (
-    <div className="max-w-5xl mx-auto font-openSans mb-20 px-12">
+    <div id="about" className="max-w-5xl mx-auto font-openSans py-28 px-12">
       <SectionTitle number={1} title="About Me" />
       <div className="lg:grid lg:grid-cols-3 gap-12 items-center w-full">
         <div className="left-content text-base font-openSans lg:col-span-2 text-secondarySlate font-semibold py-10 w-full">

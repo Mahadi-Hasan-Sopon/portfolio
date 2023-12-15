@@ -8,7 +8,10 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="max-w-5xl mx-auto font-openSans my-20 px-12 relative w-full">
+    <div
+      id="projects"
+      className="max-w-5xl mx-auto font-openSans py-28 px-12 relative w-full"
+    >
       <SectionTitle number={3} title="Some Things I've Built" />
       <div className="project-1 grid md:grid-cols-12 py-10 relative">
         <div className="image md:col-start-1 md:col-end-7 sm:w-9/12 md:w-full h-[500px] relative bg-primaryGreen">

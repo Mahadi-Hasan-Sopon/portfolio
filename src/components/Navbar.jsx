@@ -7,19 +7,19 @@ import { useState } from "react";
 const navLinks = [
   {
     name: "About",
-    url: "/#about",
+    url: "#about",
   },
   {
     name: "Experience",
-    url: "/#jobs",
+    url: "#jobs",
   },
   {
     name: "Work",
-    url: "/#projects",
+    url: "#projects",
   },
   {
     name: "Contact",
-    url: "/#contact",
+    url: "#contact",
   },
 ];
 
@@ -77,10 +77,10 @@ const Navbar = () => {
         >
           {navLinks &&
             navLinks.map(({ url, name }, idx) => (
-              <Link
-                className="text-sm flex items-center font-openSans text-primaryLiteSlate/90 font-semibold"
+              <a
+                className="text-sm flex items-center font-openSans text-primaryLiteSlate/90 font-semibold cursor-pointer"
                 key={name}
-                to={url}
+                href={url}
               >
                 <span className="mr-1.5 text-primaryGreen">
                   {(idx + 1).toLocaleString("en-US", {
@@ -89,26 +89,27 @@ const Navbar = () => {
                   .
                 </span>
                 {name}
-              </Link>
+              </a>
             ))}
           <li className="list-none flex">
-            <Link
-              to="Mahadi_CV.pdf"
+            <a
+              to="/src/assets/Mahadi_Hasan_Resume.pdf"
+              download={true}
               target="_blank"
-              className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans"
+              className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans cursor-pointer"
             >
               Resume
-            </Link>
+            </a>
           </li>
         </div>
       </div>
       <div className="navItems hidden md:flex flex-row gap-6">
         {navLinks &&
           navLinks.map(({ url, name }, idx) => (
-            <Link
-              className="text-sm flex items-center font-openSans text-primaryLiteSlate/90 font-semibold"
+            <a
+              className="text-sm flex items-center font-openSans text-primaryLiteSlate/90 font-semibold cursor-pointer"
               key={name}
-              to={url}
+              href={url}
             >
               <span className="mr-1.5 text-primaryGreen">
                 {(idx + 1).toLocaleString("en-US", {
@@ -117,11 +118,11 @@ const Navbar = () => {
                 .
               </span>
               {name}
-            </Link>
+            </a>
           ))}
         <li className="list-none">
           <Link
-            to="Mahadi_CV.pdf"
+            to="Mahadi_Hasan_Resume.pdf"
             target="_blank"
             className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2 px-4 text-sm font-openSans"
             download={true}

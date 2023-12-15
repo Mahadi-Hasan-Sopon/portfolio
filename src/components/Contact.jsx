@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="max-w-5xl mx-auto px-12 py-10">
+    <div id="contact" className="max-w-5xl mx-auto px-12 py-28">
       <div className="header flex flex-col items-center justify-center">
         <p className="text-primaryGreen text-base font-mono mb-3">
           04. {"What's"} Next?

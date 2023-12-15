@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center gap-6 sm:gap-8 max-w-5xl mx-auto min-h-screen px-12 py-24 ">
+    <div className="flex flex-col justify-center gap-6 sm:gap-8 max-w-5xl mx-auto min-h-screen px-12 py-28">
       <h2 className="text-lg font-notoSerif text-primaryGreen font-normal ms-2">
         Hi, my name is
       </h2>
@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div>
         <Link
-          to="Mahadi_CV.pdf"
+          to="Mahadi_Hasan_Resume.pdf"
           target="_blank"
           className="px-8 py-3 font-interFont text-primaryGreen inline-block outline outline-1 outline-primaryGreen rounded-sm "
           download={true}
