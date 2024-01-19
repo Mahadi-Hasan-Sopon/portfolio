@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ResumePDF from "../assets/Resume/Resume of Mahadi Hasan.pdf";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
 
       <div>
         <Link
-          to="Mahadi_Hasan_Resume.pdf"
+          to={ResumePDF}
           target="_blank"
           className="px-8 py-3 font-interFont text-primaryGreen inline-block outline outline-1 outline-primaryGreen rounded-sm "
           download={true}

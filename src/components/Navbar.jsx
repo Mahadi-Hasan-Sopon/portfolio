@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
+import ResumePDF from "../assets/Resume/Resume of Mahadi Hasan.pdf";
 
 import { useState } from "react";
 
@@ -93,7 +94,7 @@ const Navbar = () => {
             ))}
           <li className="list-none flex">
             <Link
-              to="/src/assets/Mahadi_Hasan_Resume.pdf"
+              to={ResumePDF}
               download={true}
               target="_blank"
               className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2.5 px-7 text-sm font-openSans cursor-pointer"
@@ -122,7 +123,7 @@ const Navbar = () => {
           ))}
         <li className="list-none">
           <Link
-            to="Mahadi_Hasan_Resume.pdf"
+            to={ResumePDF}
             target="_blank"
             className="text-primaryGreen flex justify-center items-center outline outline-1 outline-primaryGreen rounded-sm py-2 px-4 text-sm font-openSans"
             download={true}
